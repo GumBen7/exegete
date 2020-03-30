@@ -102,8 +102,6 @@ list<string> Parser::parseNextRule(istream& is) {
 						factProc = false;
 						rule.push_back(token);
 						token.clear();
-						//isEOF = false;
-						//break;
 					}
 					else if (pendingFact && !rule.empty()) {
 						cerr << FACT_EXPECTED_ERROR;
@@ -188,10 +186,6 @@ list<string> Parser::parseNextRule(istream& is) {
 			}
 		}
 	}
-	//if (pendingRule && !rule.empty()) {
-	//	cerr << RULE_EXPECTED_ERROR;
-	//	exit(EXIT_FAILURE);
-	//}
 	if (isEOF) {
 		rule.push_back(EOF_FLAG);
 	}
