@@ -24,6 +24,9 @@
     <ClCompile Include="TreeNode.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Algorithms.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Parser.h">
@@ -32,10 +35,10 @@
     <ClInclude Include="TreeNode.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="TreeNodeType.h">
+    <ClInclude Include="OperatorType.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="OperatorType.h">
+    <ClInclude Include="Algorithms.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
